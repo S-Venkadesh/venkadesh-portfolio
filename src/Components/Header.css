@@ -1,0 +1,18 @@
+.leftNavbar{
+    color: red;
+ 
+}
+
+@media screen and (max-width:550px){
+    .rightNavbar{
+        display:none
+    }
+}
+@media screen and (min-width:550px){
+    .buttonbar{
+        display:none
+    }
+    .menu{
+        display:none
+    }
+}

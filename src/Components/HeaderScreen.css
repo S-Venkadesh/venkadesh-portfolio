@@ -1,0 +1,13 @@
+.Navbar{
+    color: blue;
+    height: 50px;
+    width: max-content;
+}
+.Navbar .leftNavbar{
+    flex:'50%';
+    color:'red'
+}
+.Navbar .rightNavbar{
+    flex:'50%';
+    color:blanchedalmond
+}
