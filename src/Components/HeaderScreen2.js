@@ -51,7 +51,7 @@ export default function HeaderScreen2(){
         <Box border={2} borderColor='#ffae00' borderRadius={12} id="menubar" style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',display:'none'}}>
             <Link style={{textDecoration:'none'}} style={{textDecoration:'none',paddingTop:10}}
                 to="/">
-               <a style={{color:'#ffae00'}}>Hello</a> 
+               <a style={{color:'#ffae00'}}>Home</a> 
             </Link><br/>
             <Link style={{textDecoration:'none'}} 
                 to="/AboutScreen">
