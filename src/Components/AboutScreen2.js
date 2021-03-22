@@ -6,7 +6,7 @@ import Mass1 from './Six.jpg'
 export default function AboutScreen1(){
     const classes = useStyles();
     return(
-        <Box style={{height:'100vh'}}>
+        <Box style={{height:'130vh'}}>
         <Box style={{display:'flex',justifyContent:'space-evenly',flexDirection:'column'}}>
             <Typography style={{flex:1,color:'#ffae00',fontFamily:'cursive',marginTop:20}}>
                About me

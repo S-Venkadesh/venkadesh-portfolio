@@ -25,7 +25,7 @@ export default function HeaderScreen2(){
             </Typography>
             </div>
             <div className="rightNavbar">
-            <Link style={{textDecoration: 'none'}}
+            <Link style={{textDecoration: 'none',fontFamily:'cursive'}}
                 to="/HomeScreen2">
                <a style={{color:'white',paddingLeft:20,textDecoration:'none',fontFamily:'cursive'}}>Home</a> 
             </Link>
@@ -49,9 +49,9 @@ export default function HeaderScreen2(){
         </div>
         <div className="menu">
         <Box border={2} borderColor='#ffae00' borderRadius={12} id="menubar" style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',display:'none'}}>
-            <Link style={{textDecoration:'none'}} style={{textDecoration:'none',paddingTop:10}}
+            <Link style={{textDecoration:'none',paddingTop:10,fontFamily:'cursive'}}
                 to="/HomeScreen2">
-               <a style={{color:'#ffae00'}}>Home</a> 
+               <a style={{color:'#ffae00',fontFamily:'cursive'}}>Home</a> 
             </Link><br/>
             <Link style={{textDecoration:'none',fontFamily:'cursive'}} 
                 to="/AboutScreen">
