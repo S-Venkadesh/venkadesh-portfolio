@@ -93,9 +93,11 @@ export default function CountryhenScreen(){
                     </Box>
                     </Grid>
                 </Grid>
-                <Link className={classes.Link}  to="/Project1Screen">
-                    <a color="inherit">Project</a>
-                 </Link>
+                <Box style={{display:'flex',justifyContent:'center'}}>
+            <Link border={2} style={{color:'#ffae00',borderRadius:12,fontFamily:'cursive',borderBlockEndStyle:'solid',borderColor:'#ffae00',width:150,margin:40}}  to="/Project1Screen" className={classes.Link}>
+                             Projects
+            </Link>
+            </Box>
             </Box>
 
         </Box>
@@ -110,12 +112,11 @@ const useStyles = makeStyles((theme) => ({
     card:{
         margin:"2%",
         height:"50vh",
-        backgroundColor:'white',
+     
         width:'35%',
         borderRadius:12
     },
     Link:{
-        
-        backgroundColor:'red'
+    
     }
 }))

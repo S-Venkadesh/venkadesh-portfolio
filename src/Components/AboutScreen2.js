@@ -8,14 +8,13 @@ export default function AboutScreen1(){
     return(
         <Box style={{height:'100vh'}}>
         <Box style={{display:'flex',justifyContent:'space-evenly',flexDirection:'column'}}>
-            <Typography style={{flex:0.5,color:'#ffae00',fontFamily:'cursive'}}>
+            <Typography style={{flex:1,color:'#ffae00',fontFamily:'cursive',marginTop:20}}>
                About me
             </Typography>
-            <Box style={{flex:2,display:'flex',flexDirection:'row',justifyContent:'space-evenly',marginTop:125}}>
+            <Box style={{flex:3,display:'flex',flexDirection:'row',justifyContent:'space-evenly',marginTop:125}}>
                <Grid container spacing={3} style={{marginBottom:40,flex:1}}>
                <Grid item md={6} xs={12}>
                <Box
-                     
                      data-aos="zoom-in"
                      data-aos-delay="50"
                      data-aos-duration="2000"              
@@ -26,6 +25,7 @@ export default function AboutScreen1(){
                 <Grid item md={6} xs={12} style={{flex:2}}>
                <Box>
                <Box
+                    style={{}}
                      data-aos="zoom-in"
                      data-aos-delay="50"
                      data-aos-duration="2000"              

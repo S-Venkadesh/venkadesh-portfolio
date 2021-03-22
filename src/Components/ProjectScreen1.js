@@ -60,9 +60,9 @@ export default function ProjectScreen1(){
                         </CardActionArea>
                         <CardActions>
 
-                            <Button size="small" color="primary">
-                            Learn More
-                            </Button>
+                        <Link style={{textDecoration: 'none'}}  to="/GameScreen" className={classes.Link}>
+                             Know More
+                        </Link>
                         </CardActions>
                     </Card>
                     </Grid>

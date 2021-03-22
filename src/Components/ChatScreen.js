@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import {Box} from '@material-ui/core';
 import second from './ChatScreen/2.PNG';
-
+import {Link} from 'react-router-dom';
 
 export default function ChatScreen(){
 const classes = useStyles();
@@ -18,6 +18,11 @@ return(
             <img style={{width:"70%",height:"90%",borderRadius:12}} src={second} />
             </card>
         </Box>
+        <Box style={{display:'flex',justifyContent:'center'}}>
+            <Link border={2} style={{color:'#ffae00',borderRadius:12,fontFamily:'cursive',borderBlockEndStyle:'solid',borderColor:'#ffae00',width:150,margin:40}} to="/Project1Screen" className={classes.Link}>
+                             Projects
+            </Link>
+            </Box>
     </Box>
 )
 }

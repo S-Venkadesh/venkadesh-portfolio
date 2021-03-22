@@ -3,6 +3,7 @@ import {Button,AppBar,Grid,Toolbar,Typography,Divider,Modal,Box} from '@material
 import { makeStyles } from '@material-ui/core/styles';
 import Mass from './Home1.jpg';
 import './HomeScreen.css';
+import HeaderScreen from '../Components/HeaderScreen2';
 import { createMuiTheme, responsiveFontSizes,ThemeProvider } from '@material-ui/core/styles';
 
 const theme = createMuiTheme();
@@ -47,18 +48,20 @@ export default function HomeScreen2(){
       if (newWindow) newWindow.opener = null
     }
     return(
-      <Box style={{height:"100vh",display:'flex',alignItems:'center'}}>
+      <div>
+             
+      <Box style={{height:"100vh",display:'flex',alignItems:'center',flexDirection:'column',justifyContent:'center'}}>
         <Grid container spacing={3} display='flex' justifyContent='space-evenly' alignItems="center">
           <Grid item xs={12} md={6}>
           <Box
-                    data-aos="zoom-in"
-                    data-aos-delay="50"
-                    data-aos-duration="2000"          
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="2000"          
           style={{display:'flex',justifyContent:"center",flexDirection:'column',marginLeft:40,marginRight:40}}>
       
                     <Box border={2} style={{borderColor:'#ffae00',borderRadius:12}}>
                         <Typography data-aos-duration="2000" data-aos-delay="50" data-aos="flip-left" style={{color:"#ffae00",fontFamily:'cursive'}}>Hello , I am</Typography><Divider/>
-                        <Typography data-aos-duration="2000" data-aos-delay="50" data-aos="flip-left" style={{color:"white",fontFamily:'fantasy',fontSize:50}}>Venkadesh S</Typography>
+                        <Typography data-aos-duration="2000" data-aos-delay="50" data-aos="flip-left" style={{color:"white",fontFamily:'fantasy',fontSize:35,display:'flex',justifyContent:'center'}}>Venkadesh S</Typography>
                         <Typography data-aos-duration="2000" data-aos-delay="50" data-aos="flip-left" style={{color:"white",fontFamily:'monospace'}}>Aspiring Full Stack Developer </Typography>
                     </Box>
           <Box style={{display:'flex',justifyContent:'space-evenly'}}>
@@ -100,6 +103,7 @@ export default function HomeScreen2(){
           </Grid>
         </Grid>
       </Box> 
+      </div>
     )
 }
 

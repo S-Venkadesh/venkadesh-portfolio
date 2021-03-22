@@ -26,21 +26,21 @@ export default function HeaderScreen2(){
             </div>
             <div className="rightNavbar">
             <Link style={{textDecoration: 'none'}}
-                to="/">
-               <a style={{color:'white',paddingLeft:20,textDecoration:'none'}}>Home</a> 
+                to="/HomeScreen2">
+               <a style={{color:'white',paddingLeft:20,textDecoration:'none',fontFamily:'cursive'}}>Home</a> 
             </Link>
-            <Link style={{textDecoration: 'none'}}
+            <Link style={{textDecoration: 'none',fontFamily:'cursive'}}
                 to="/AboutScreen">
-                <a style={{color:'white',paddingLeft:20}} color="inherit">About</a>
+                <a style={{color:'white',paddingLeft:20,fontFamily:'cursive'}} color="inherit">About</a>
             </Link>
-            <Link style={{textDecoration: 'none'}} to="/SkillScreen">
-                <a style={{color:'white',paddingLeft:20}} color="inherit">Skill</a>
+            <Link style={{textDecoration: 'none',fontFamily:'cursive'}} to="/SkillScreen">
+                <a style={{color:'white',paddingLeft:20,fontFamily:'cursive'}} color="inherit">Skill</a>
             </Link> 
-            <Link style={{textDecoration: 'none'}} to="/Project1Screen">
+            <Link style={{textDecoration: 'none',fontFamily:'cursive'}} to="/Project1Screen">
                 <a style={{color:'white',paddingLeft:20}} color="inherit">Project</a>
             </Link> 
-            <Link style={{textDecoration: 'none'}} to="/ContactScreen">
-                <a style={{color:'white',paddingLeft:20}} color="inherit">Contact</a>
+            <Link style={{textDecoration: 'none',fontFamily:'cursive'}} to="/ContactScreen">
+                <a style={{color:'white',paddingLeft:20,fontFamily:'cursive'}} color="inherit">Contact</a>
             </Link> 
             </div>
             <div className="buttonbar">
@@ -50,21 +50,21 @@ export default function HeaderScreen2(){
         <div className="menu">
         <Box border={2} borderColor='#ffae00' borderRadius={12} id="menubar" style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',display:'none'}}>
             <Link style={{textDecoration:'none'}} style={{textDecoration:'none',paddingTop:10}}
-                to="/">
+                to="/HomeScreen2">
                <a style={{color:'#ffae00'}}>Home</a> 
             </Link><br/>
-            <Link style={{textDecoration:'none'}} 
+            <Link style={{textDecoration:'none',fontFamily:'cursive'}} 
                 to="/AboutScreen">
-                <a style={{color:'#ffae00'}} color="inherit">About</a>
+                <a style={{color:'#ffae00',fontFamily:'cursive'}} color="inherit">About</a>
             </Link><br/>
             <Link style={{textDecoration:'none'}} to="/SkillScreen">
-                <a style={{color:'#ffae00'}} color="inherit">Skill</a>
+                <a style={{color:'#ffae00',fontFamily:'cursive'}} color="inherit">Skill</a>
             </Link> <br/>
             <Link style={{textDecoration:'none'}} to="/Project1Screen">
-                <a style={{color:'#ffae00'}} color="inherit">Project</a>
+                <a style={{color:'#ffae00',fontFamily:'cursive'}} color="inherit">Project</a>
             </Link> <br/>
             <Link style={{textDecoration:'none'}} to="/ContactScreen">
-                <a style={{color:'#ffae00'}} color="inherit">Contact</a>
+                <a style={{color:'#ffae00',fontFamily:'cursive'}} color="inherit">Contact</a>
             </Link>
         </Box>
         </div>

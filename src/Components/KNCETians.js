@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import {Card,Paper,Grid,Button,Box} from '@material-ui/core';
+import {Link} from 'react-router-dom';
 import first from './Kncetians/1.jpg';
 import second from './Kncetians/2.jpg';
 import third from './Kncetians/3.jpg';
@@ -10,7 +11,7 @@ export default function KNCETians(){
     const classes = useStyles();
     return(
         <div style={{height:'100vh'}}>
-        <div style={{background: 'linear-gradient(45deg, #3b3287 20%, #0a192f 90%)',display:'flex'}}>
+        <div style={{background: 'linear-gradient(45deg, #3b3287 20%, #0a192f 90%)',display:'flex',flexDirection:'column'}}>
         <Box display="flex" flexDirection="row" flex={1}>
             <Box flex={1}>
             <div className={classes.Heading}>chat application</div>
@@ -53,8 +54,15 @@ export default function KNCETians(){
                 </Grid>
             </Grid>
             </Box>
+
         </Box>
+        <Box style={{display:'flex',justifyContent:'center'}}>
+            <Link border={2} style={{color:'#ffae00',borderRadius:12,fontFamily:'cursive',borderBlockEndStyle:'solid',borderColor:'#ffae00',width:150,margin:40}}  to="/Project1Screen" className={classes.Link}>
+                             Projects
+            </Link>
+            </Box>
         </div>
+
         </div>
     )
 }
