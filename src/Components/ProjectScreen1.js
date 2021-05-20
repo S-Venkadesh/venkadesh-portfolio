@@ -43,7 +43,7 @@ export default function ProjectScreen1(){
                         </CardActionArea>
                         <CardActions>
                         <Link style={{textDecoration: 'none'}}  to="/ChatScreen" className={classes.Link}>
-                             Know More
+                             Chat Screen
                         </Link>
                         </CardActions>
                     </Card>
@@ -61,7 +61,7 @@ export default function ProjectScreen1(){
                         <CardActions>
 
                         <Link style={{textDecoration: 'none'}}  to="/GameScreen" className={classes.Link}>
-                             Know More
+                             stone paper scissor
                         </Link>
                         </CardActions>
                     </Card>
@@ -78,7 +78,7 @@ export default function ProjectScreen1(){
                         </CardActionArea>
                         <CardActions>
                         <Link style={{textDecoration: 'none'}}  to="/VimerzaScreen" className={classes.Link}>
-                             Know More
+                             vimarza
                         </Link>
                         </CardActions>
                     </Card>
@@ -96,7 +96,7 @@ export default function ProjectScreen1(){
                         <CardActions>
 
                         <Link style={{textDecoration: 'none'}} to="/KNCETians" className={classes.Link}>
-                            Know More
+                            KNCETians
                         </Link>
                         </CardActions>
                     </Card>
@@ -114,7 +114,7 @@ export default function ProjectScreen1(){
                         <CardActions>
 
                         <Link style={{textDecoration: 'none'}} to="/CountryhenScreen" className={classes.Link}>
-               Know More
+               Country Hen
                </Link>
                         </CardActions>
                     </Card>
@@ -131,7 +131,7 @@ export default function ProjectScreen1(){
                         </CardActionArea>
                         <CardActions>
                         <Button size="small" color="primary" onClick={() => openInNewTab('https://www.cs.york.ac.uk/micromouse/Papers/Building-a-line-following-robot.pdf')}>
-                            Learn More
+                            Line Follower
                             </Button>
                         </CardActions>
                     </Card>
